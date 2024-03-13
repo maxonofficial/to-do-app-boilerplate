@@ -34,6 +34,7 @@ img {
 
 .form input {
   width: 400px;
+  padding: 10px 20px;
   border: 2px solid lightgray;
 }
 
@@ -61,7 +62,23 @@ img {
 }
 
 #todolist li a {
+  margin: 0 5px;
+  padding: 0 10px;
   float: right;
   font-size: 16px;
   cursor: pointer;
+}
+
+#todolist li p {
+  display: inline;
+}
+
+#todolist li a:hover {
+  background-color: antiquewhite;
+}
+
+#todolist li span {
+  margin: 0 10px;
+  float: right;
+  font-size: 16px;
 }
